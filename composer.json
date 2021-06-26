@@ -1,9 +1,13 @@
 {
     "name": "ulmod/m2-info",
     "description": "Info for M2 by Ulmod",
-    "keywords": ["hello","magento 2 Info"],  
-    "type": "magento2-module",
-    "license": "MIT",  
+    "keywords": [
+        "magento 2",
+        "magento 2 info",
+        "magento",
+        "ulmod"
+    ],
+    "type": "magento2-module", 
     "authors": [
         {
             "name": "Ulmod",
@@ -13,15 +17,12 @@
         }
     ],  
     "version": "2.0.0",
-    "require": {
-        "php": "~7.3.0||~7.4.0"
-    },
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "Ulmod\\Hello\\": ""
+            "Ulmod\\Info\\": ""
         }
     }
 }
